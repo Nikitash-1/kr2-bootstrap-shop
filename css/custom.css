@@ -5,6 +5,7 @@ body {
 .placeholder-box {
   min-height: 240px;
 }
+
 .placeholder-image {
   min-height: 320px;
 }
@@ -12,4 +13,40 @@ body {
 .card-img-top {
   height: 180px;
   object-fit: cover;
+}
+
+/* Замена синего (primary) на салатовый */
+.bg-primary {
+  background-color: #c4e6a8 !important;
+  color: #000 !important;
+}
+.text-primary {
+  color: #0b3d0f !important;
+}
+.btn-primary {
+  background-color: #c4e6a8 !important;
+  border-color: #c4e6a8 !important;
+  color: #000 !important;
+}
+.btn-primary:hover {
+  background-color: #c4e6a8 !important;
+  border-color: #c4e6a8 !important;
+}
+.btn-outline-primary {
+  color: #0b3d0f!important;
+  border-color: #c4e6a8 !important;
+}
+.btn-outline-primary:hover {
+  background-color: #c4e6a8 !important;
+  color: #000 !important;
+}
+.alert-info {
+  background-color: #c4e6a8 !important;
+  border-color: #c4e6a8 !important;
+  color: #000 !important;
+}
+
+/* Замена тёмно-синего/тёмно-серого (dark) на тёмно-зелёный */
+.bg-dark {
+  background-color: #0b3d0f !important;
 }
